@@ -1,0 +1,20 @@
+.headerbody{  
+    background-color:#000;
+    color:#fff;
+    padding: 15%;
+    font-family: 'Poppins', sans-serif; 
+}
+.profileimg{ 
+    height: 300px;
+    margin-top: -20px;  
+}
+.button{
+    background-color: #ff4500;
+    border-radius:30px;
+    padding:8px;
+    width:150px;
+    color: #fff;
+    font-weight: 600;
+    font-size:1.125rem;
+    
+}
