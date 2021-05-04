@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
             <hr/>
             <div className="d-flex justify-content-center pb-5 text-white">
-                 @All right reserved by APURBO
+                 &copy;All right reserved by APURBO
             </div>
         </div>
     );

@@ -23,15 +23,22 @@ import "swiper/components/pagination/pagination.min.css"
 import SwiperCore, {
   EffectCoverflow,Pagination
 } from 'swiper/core';
-
+import Bounce from 'react-reveal/Bounce';
 // install Swiper modules
 SwiperCore.use([EffectCoverflow,Pagination]);
 
 const Project=()=> {
   return (
       <section id="project" className="pt-5 pb-5" style={{}}>
-          <h2 className="pt-5 pb-5">PROJECT</h2>
-    <>
+          <Bounce top>  <h4 className="pt-5 "><span style={{borderLeft:"4px solid orange",paddingRight:"5px"}}></span>PROJECT</h4> </Bounce > 
+          <Bounce left> <div className="d-flex justify-content-center ">
+                <hr className="" style={{width:"150px",height:"3px"}} /> 
+                </div></Bounce>
+              <Bounce right><div className="d-flex justify-content-center ">
+               <hr className=" mt-0 mb-5" style={{width:"200px",height:"3px"}} />
+               </div>
+               </Bounce> 
+  <>
     <Swiper effect={'coverflow'} grabCursor={true} startedSlides={true} slidesPerView={'auto'} coverflowEffect={{
   "rotate": 50,
   "stretch": 0,

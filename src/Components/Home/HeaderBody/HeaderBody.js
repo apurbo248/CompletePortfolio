@@ -23,8 +23,8 @@ const HeaderBody = () => {
             <h1 style={{marginBottom:'20px',fontWeight:'600',fontSize:'50px'}}>Wellcome To My Website</h1>
             <p style={{fontSize:'25px',marginBottom:'20px',marginLeft:'-10px',color:'#ff4500'}}>Web Developer <span class="text-white">|</span> Web Designer <span class="text-white">|</span> Programmer 
             </p>
-            <button class="button btn">Hire Me</button>
-            <a class="btn btn-success" href="https://drive.google.com/uc?export=download&id=1sH96zJoSUAvxBgT5-sgfAG7FcdOqjDxX">Resume</a>
+            <a class="button btn me-2" href="#footer">Hire Me</a>
+            <a class="button btn" href="https://drive.google.com/uc?export=download&id=1sH96zJoSUAvxBgT5-sgfAG7FcdOqjDxX">Resume</a>
             </div>
             </div>
           </div>

@@ -4,7 +4,7 @@ import { faFacebookF,faLinkedinIn,faTwitter} from '@fortawesome/free-brands-svg-
 const Header = () => {
     return (
         <section style={{zIndex:'1',background:'#000'}} >
-            <nav class="navbar navbar-expand-lg navbar-dark navbar-dark container">
+            <nav class="navbar navbar-expand-lg  navbar-dark  fixed-top" style={{background:"#131217"}}>
             <div class="container-fluid">
            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,14 +26,17 @@ const Header = () => {
                 <a class="nav-link text-white fs-5" href="#project">Project</a>
                 </li>
                 <li class="nav-item">
+                <a class="nav-link text-white fs-5" href="#blog">Blog</a>
+                </li>
+                <li class="nav-item">
                 <a class="nav-link text-white fs-5" href="#footer">contact</a>
                 </li>
             </ul>
             <a  class="navbar-brand me-auto fs-2" href="#">developer<span style={{color:"green"}}>TREE</span></a>
             <div class="">
-            <a className="pe-5" href="https://web.facebook.com/apurbo.pal.980/" target="_blank"><FontAwesomeIcon icon={faFacebookF} size="2x"/> </a> 
-            <a className="pe-5" href="https://www.linkedin.com/in/apurbo-kumar-paul-2620b7211/" target="_blank" ><FontAwesomeIcon icon={faLinkedinIn} size="2x"/> </a> 
-            <a href="https://web.facebook.com/apurbo.pal.980/" target="_blank" ><FontAwesomeIcon icon={faTwitter} size="2x"/> </a> 
+            <a className="pe-3" href="https://web.facebook.com/apurbo.pal.980/" target="_blank"><FontAwesomeIcon icon={faFacebookF} size="1x"/> </a> 
+            <a className="pe-3" href="https://www.linkedin.com/in/apurbo-kumar-paul-2620b7211/" target="_blank" ><FontAwesomeIcon icon={faLinkedinIn} size="1x"/> </a> 
+            <a href="https://web.facebook.com/apurbo.pal.980/" target="_blank" ><FontAwesomeIcon icon={faTwitter} size="1x"/> </a> 
             </div>
             </div>
          </div>

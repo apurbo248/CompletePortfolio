@@ -20,13 +20,13 @@ const Connect = () => {
       
     return (
         <section style={{ background:"#131217"}}>
-            <Bounce top> <h1 className="text-white pt-5">Connect with Me</h1></Bounce> 
+            <Bounce top> <h4 className="text-white pt-5"><span style={{borderLeft:"4px solid orange",paddingRight:"5px"}}></span>Connect with Me</h4></Bounce> 
             
             <Bounce left> <div className="d-flex justify-content-center ">
-                <hr className="text-white pb mb-3" style={{width:"100px",height:"3px"}} /> 
+                <hr className="text-white pb mb-3" style={{width:"150px",height:"3px"}} /> 
                 </div></Bounce>
               <Bounce right><div className="d-flex justify-content-center ">
-               <hr className="text-white mt-0" style={{width:"150px",height:"3px"}} />
+               <hr className="text-white mt-0" style={{width:"200px",height:"3px"}} />
                </div>
                </Bounce> 
            

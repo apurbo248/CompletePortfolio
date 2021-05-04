@@ -7,6 +7,7 @@ import Project from './Components/Home/Project/Project';
 import Footer from './Components/Home/Footer/Footer';
 import About from './Components/Home/About/About';
 import Connect from './Components/Home/Connect/Connect';
+import Blog from './Components/Home/Blog/Blog';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
     <About></About>
     <Skills></Skills>
     <Project></Project>
+    <Blog></Blog>
     <Connect></Connect>
     <Footer></Footer>
     </div>
