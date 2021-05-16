@@ -32,7 +32,7 @@ const Header = () => {
                 <a class="nav-link text-white fs-5" href="#footer">contact</a>
                 </li>
             </ul>
-            <a  class="navbar-brand me-auto fs-2" href="#">developer<span style={{color:"green"}}>TREE</span></a>
+            {/* <a  class="navbar-brand me-auto fs-2" href="#">developer<span style={{color:"green"}}>TREE</span></a> */}
             <div class="">
             <a className="pe-3" href="https://web.facebook.com/apurbo.pal.980/" target="_blank"><FontAwesomeIcon icon={faFacebookF} size="1x"/> </a> 
             <a className="pe-3" href="https://www.linkedin.com/in/apurbo-kumar-paul-2620b7211/" target="_blank" ><FontAwesomeIcon icon={faLinkedinIn} size="1x"/> </a> 

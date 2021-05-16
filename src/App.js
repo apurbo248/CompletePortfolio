@@ -18,7 +18,6 @@ function App() {
     <Skills></Skills>
     <Project></Project>
     <Blog></Blog>
-    <Connect></Connect>
     <Footer></Footer>
     </div>
   );
