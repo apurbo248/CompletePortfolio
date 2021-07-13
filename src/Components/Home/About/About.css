@@ -1,0 +1,45 @@
+.lines{
+    width:10%;
+    height:20px;
+    position:relative;
+    margin: auto;
+}
+.lines::after, .lines::before{
+    content:"";
+    position:absolute;
+    margin: auto;
+    height:2px;
+    background:#7f00ff;
+    width:40%;
+    top:45%;
+}
+.lines::after{
+    left:-10px;
+   
+}
+.lines::before{
+    right:-10px;
+}
+.diamond{
+    height:20px;
+    width:20px;
+    border:2px solid #7f00ff ;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    transform:rotate(180deg);
+    animation: rotate 3s linear infinite ;
+    
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+

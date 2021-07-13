@@ -1,4 +1,5 @@
 import React from 'react';
+import './Connect.css'
 import emailjs from 'emailjs-com';
 import { useForm } from "react-hook-form";
 import Bounce from 'react-reveal/Bounce';
@@ -19,22 +20,29 @@ const Connect = () => {
       }
       
     return (
-        <section className="container-fluid" style={{ background:"#000"}}>
+        <section className="" style={{ background:""}}>
             
-           <div style={{width:'100%',margin:'auto'}}>
+         
            <form className="contact-form pt-5 pb-5" onSubmit={sendEmail} style={{}}>
-           
-            <input  className="form-control mb-3 btn-outline-primary" type="text" name="name" placeholder="Name"  {...register("name", { required: true }) }required />
+           <div class="row d-flex" style={{}}>
+            <div className=" col-12 col-md-6 ">
+            <input  className="form-control mb-3 " type="text" name="name" placeholder="YOUR NAME"  {...register("name", { required: true }) }required />
             {errors.name && <span color="red">This field is required</span>}
-            
-            <input  className="form-control mb-3 btn-outline-primary" type="email" name="email" placeholder="Email" {...register("email", { required: true })} required />
+            </div>
+            <div className=" col-12 col-md-6">
+            <input  className="form-control mb-3 " type="email" name="email" placeholder="YOUR EMAIL" {...register("email", { required: true })} required />
             {errors.email && <span color="red">This field is required</span>}
            
-            <textarea  className="form-control mb-3 btn-outline-primary" name="message" placeholder="Message" {...register("message", { required: true })} required />
+            </div>
+            <div className="col-12">
+            <textarea  className="textarea form-control mb-3 " name="message" placeholder="Message" {...register("YOUR MESSAGE", { required: true })} required />
             {errors.message && <span color="red">This field is required</span>}
-            <input  className="btn btn-primary btn-lg w-50" type="submit" value="Send" />
+            <button  className="button d-flex justify-content-center align-items-center" type="submit" value="Send"> <span>send Message</span></button>
+            </div>
+           
+            </div>
             </form>
-           </div>
+          
         </section>
     );
 };

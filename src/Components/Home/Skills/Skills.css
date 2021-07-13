@@ -1,3 +1,17 @@
-.image{
-    box-shadow: 0 4px 16px 0 rgb(45, 207, 248), 0 6px 20px 0 rgb(252, 253, 252);
+
+.ring img {
+ 
+    animation: animationCircle1 5s linear infinite; ;
 }
+@keyframes animationCircle1 {
+    0% {
+        transform: translateY(0px);
+    }
+50%{
+    transform: translateY(10px)
+}
+    100% {
+        transform:translateY(0px);
+    }
+}
+ 
