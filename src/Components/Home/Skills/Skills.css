@@ -1,7 +1,7 @@
 
 .ring img {
  
-    animation: animationCircle1 5s linear infinite; ;
+    animation: animationCircle1 5s linear infinite ;
 }
 @keyframes animationCircle1 {
     0% {
